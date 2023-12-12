@@ -248,7 +248,7 @@ const HomePage = () => {
 
         <Grid item container xs={12} sm={12} md={8} lg={9}>
           {loading ? (
-            Array.from({ length: itemsPerPage }).map((_, index) => (
+            Array.from({ length: itemsPerPage }).map((index) => (
               <Grid
                 item
                 key={index}
